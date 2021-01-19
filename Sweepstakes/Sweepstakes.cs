@@ -9,7 +9,15 @@ namespace Sweepstakes
     class Sweepstakes
     {
         //member variables
-        public string name;
+        private string name;
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+        }
+        Dictionary<int, Contestant> contestants;
 
 
 
@@ -18,7 +26,6 @@ namespace Sweepstakes
         {
 
         }
-
 
 
 
@@ -33,7 +40,7 @@ namespace Sweepstakes
 
         }
 
-        public void PringContestantInfo(Contestant contestant)
+        public void PrintContestantInfo(Contestant contestant)
         {
 
         }
