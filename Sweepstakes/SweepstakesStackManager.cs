@@ -11,16 +11,12 @@ namespace Sweepstakes
         //member variables
         public Stack<Sweepstakes> stack;
 
-
-
         //consructor
         public SweepstakesStackManager()
         {
             stack = new Stack<Sweepstakes>();
         }
         
-
-
         //member methods
         public void InsertSweepstakes(Sweepstakes sweepstakes)
         {

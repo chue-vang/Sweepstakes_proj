@@ -14,8 +14,6 @@ namespace Sweepstakes
         public string email;
         public int registrationNumber;
 
-
-
         //constructor
         public Contestant()
         {
@@ -24,9 +22,4 @@ namespace Sweepstakes
             email = "";
             registrationNumber = 0;
         }
-
-
-
-        //member methods
-    }
 }

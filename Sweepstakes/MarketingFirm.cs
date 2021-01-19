@@ -11,19 +11,12 @@ namespace Sweepstakes
         //member variables
         public ISweepstakesManager _manager;
 
-
-
-
         //constructor
         public MarketingFirm(ISweepstakesManager manager)
         {
             this._manager = manager;
         }
         
-
-
-
-
         //member methods
         public void CreateSweepstakes()
         {

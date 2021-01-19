@@ -10,8 +10,6 @@ namespace Sweepstakes
     {
         public void CreateMarketingFirmWithManager()
         {
-            //here you will call the factory method to create a manager, save it as a variable
-            //Pass the created manager into a MarketingFirm instantiation
             string userInput = UserInterface.GetUserInputFor("Select either a Stack manager or a Queue manager");
             MarketingFirm marketingFirm = new MarketingFirm(ManageSweepstakesObject(userInput));
         }

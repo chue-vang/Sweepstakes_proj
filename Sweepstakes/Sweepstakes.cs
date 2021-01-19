@@ -19,16 +19,12 @@ namespace Sweepstakes
         }
         Dictionary<int, Contestant> contestants;
 
-
-
         //constructor
         public Sweepstakes(string name)
         {
             this.name = name;
             contestants = new Dictionary<int, Contestant>();
         }
-
-
 
         //member methods
         public void RegisterContestant(Contestant contestant)
@@ -41,13 +37,7 @@ namespace Sweepstakes
 
         public Contestant PickWinner()
         {
-            
-            //random choice, 0-
-            //[0, 1, 2]
-            //list[index]
-            //count = 0 when there's no contestants, reg = key
-            //
-            //dictionary[key]
+           
             Random random = new Random();
             int winningRegNumber = random.Next(contestants.Count);
 
