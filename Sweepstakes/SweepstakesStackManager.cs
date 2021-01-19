@@ -18,7 +18,7 @@ namespace Sweepstakes
         {
             stack = new Stack<Sweepstakes>();
         }
-
+        
 
 
         //member methods
