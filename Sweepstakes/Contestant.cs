@@ -12,7 +12,7 @@ namespace Sweepstakes
         public string firstName;
         public string lastName;
         public string email;
-        public int registrationNumber;
+        public int registrationNumber;        
 
         //constructor
         public Contestant()
@@ -22,4 +22,5 @@ namespace Sweepstakes
             email = "";
             registrationNumber = 0;
         }
+    }
 }

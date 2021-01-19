@@ -9,10 +9,10 @@ namespace Sweepstakes
     static class UserInterface
     {
          public static string GetUserInputFor(string prompt)
-        {
+         {
             Console.WriteLine(prompt);
             string userInput = Console.ReadLine();
             return userInput;
-        }
+         }
     }
 }

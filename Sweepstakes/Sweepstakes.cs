@@ -17,7 +17,7 @@ namespace Sweepstakes
                 return name;
             }
         }
-        Dictionary<int, Contestant> contestants;
+        Dictionary<int, Contestant> contestants;        
 
         //constructor
         public Sweepstakes(string name)
@@ -36,11 +36,9 @@ namespace Sweepstakes
         }
 
         public Contestant PickWinner()
-        {
-           
-            Random random = new Random();
-            int winningRegNumber = random.Next(contestants.Count);
-
+        {           
+            //Random random = new Random();
+            //int winningRegNumber = random.Next(contestants.Count);
         }
 
         public void PrintContestantInfo(Contestant contestant)
